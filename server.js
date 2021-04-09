@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = process.ENV.PORT;
+const PORT = process.ENV.PORT ||3000;
 
 var apiKeys = {
     i89eNOFdoIWHnFOfIW923jfnFHW: "Brainy",
